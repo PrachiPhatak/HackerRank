@@ -1,0 +1,99 @@
+:root{
+    --backgroundColor:#e6e6e6;
+}
+body{
+    font-family:"abel-regular", serif;
+    padding: 0;
+    margin: 0;
+    /*background-color: lightgrey;*/
+}
+.navBar{
+    /*margin-top: 6em;*/
+    padding:0;
+    position: absolute;
+    left : 0;
+    top:50px;
+    height: 60px;
+    width: 100%;
+    background-color: #f0f0f0;
+}
+.logo{
+    margin-top:30px;
+}
+.textFont{
+    font-family:"abel-regular", serif;
+}
+a{
+    color: black;
+}
+img{
+    width: 105px;
+    height: 105px;
+}
+.imgBorder{
+    border-radius: 5px;
+    border: 10px solid #d0d0d0;
+}
+.red{
+    background-color: #E6563B;
+}
+.yellow{
+    background-color: #EB9D3A;
+}
+.green{
+    background-color: #7CB06C;
+}
+.blue{
+    background-color: #00ABA9;
+}
+.big{
+    height: 200px;
+    width: 200px;
+    font-size:xx-large;
+    font-weight: bolder;
+    border: 10px solid #f0f0f0;
+    color: white;
+}
+.small{
+    height: 40px;
+    width: 40px;
+    font-size: larger;
+    font-weight: bolder;
+    border: 1px solid #f0f0f0;
+}
+.circle{
+    border-radius: 50%;
+}
+.bgColor{
+    background-color: var(--backgroundColor);
+}
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 10px) {
+    body{
+        background-color: var(--backgroundColor);
+    }
+    /*h1 {font-size:1.5rem;} !*1rem = 16px*!*/
+}
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 576px) {
+    body{
+        background-color: #bb4e4e;
+    }
+    /*h1 {font-size:1.5rem;} !*1rem = 16px*!*/
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+    body{background-color: #99ff50;}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    body{background-color: #5059ff;}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    body{background-color: #ff506a;}
+}

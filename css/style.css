@@ -1,84 +1,201 @@
-:root{
-    --backgroundColor:#e6e6e6;
+:root {
+    --backgroundColor: #e6e6e6;
 }
-body{
-    font-family:"abel-regular", serif;
+
+body {
+    font-family: 'ANTON REGULAR', sans-serif;
+    padding: 0;
+    margin: 0;
     /*background-color: lightgrey;*/
 }
-.textFont{
-    font-family:"abel-regular", serif;
+
+p {
+    font-family: "Abel", sans-serif;
+    font-weight: 300;
+    font-size: 9px;
 }
-a{
+
+.navBar {
+    padding: 0;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    height: 60px;
+    width: 100%;
+    background-color: #f0f0f0;
+}
+
+.menu {
+    width: 100%;
+}
+
+.logo {
+    margin-top: 30px;
+}
+
+.slogan {
+    font-size: 48px;
+    font-family: 'ANTON', sans-serif;
+}
+
+a {
     color: black;
 }
-img{
+
+img {
     width: 105px;
     height: 105px;
 }
-.imgBorder{
+
+.imgBorder {
     border-radius: 5px;
     border: 10px solid #d0d0d0;
 }
-.red{
+
+.red {
     background-color: #E6563B;
 }
-.yellow{
+
+.yellow {
     background-color: #EB9D3A;
 }
-.green{
+
+.green {
     background-color: #7CB06C;
 }
-.blue{
+
+.blue {
     background-color: #00ABA9;
 }
-.big{
-    height: 200px;
-    width: 200px;
-    font-size:xx-large;
+
+.big {
+    height: 105px;
+    width: 105px;
+    font-size: 26px;
     font-weight: bolder;
     border: 10px solid #f0f0f0;
     color: white;
 }
-.small{
-    height: 40px;
-    width: 40px;
-    font-size: larger;
+
+.small {
     font-weight: bolder;
-    border: 1px solid #f0f0f0;
+    border-radius: 100%;
+    position: relative;
+    margin-left: 3px;
 }
-.circle{
-    border-radius: 50%;
+
+.small > span {
+    height: 4px;
+    width: 4px;
+    margin-bottom: 0;
+    position: absolute;
+    bottom: 62%;
+    left: 35%
 }
-.bgColor{
+
+.small > img {
+    height: 160px;
+}
+
+.bgColor {
     background-color: var(--backgroundColor);
 }
+
+.blogTitle {
+    font-size: 14px;
+    font-family: 'ANTON', sans-serif;
+}
+
+.lastImg {
+    height: 49px;
+}
+
+.featured-product {
+    font-size: 8px;
+    font-family: "Abel", sans-serif;
+}
+
+.sm-char {
+    font-size: 10px;
+    font-family: 'ANTON', sans-serif;
+}
+
+.bigFont {
+    font-size: x-large;
+    font-family: 'ANTON', sans-serif;
+}
+
 /* Small devices (landscape phones, 544px and up) */
 @media (min-width: 10px) {
-    body{
+    body {
         background-color: var(--backgroundColor);
     }
-    /*h1 {font-size:1.5rem;} !*1rem = 16px*!*/
+
+    .h2 {
+        font-size: xxx-large;
+    }
+
+    .companyName {
+        font-size: xxx-large;
+    }
+
+    .smFont {
+        font-size: large;
+    }
+
+    .big {
+        height: 200px;
+        width: 200px;
+        font-size: 22px;
+        font-weight: bolder;
+        border: 10px solid #f0f0f0;
+        color: white;
+    }
 }
 
 /* Small devices (landscape phones, 544px and up) */
 @media (min-width: 576px) {
-    body{
-        background-color: #bb4e4e;
+
+    .companyName {
+        font-size: xx-large;
+        top: 19px;
     }
-    /*h1 {font-size:1.5rem;} !*1rem = 16px*!*/
+
+    .top {
+        top: 69px;
+    }
+
+    .big {
+        height: 105px;
+        width: 105px;
+        border: 10px solid #f0f0f0;
+        color: white;
+    }
+
+    .bigFont {
+        font-size: large;
+        font-family: 'ANTON', sans-serif;
+    }
+
+    .smFont {
+        font-size: small;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {
-    body{background-color: #99ff50;}
+
+    .companyName {
+        font-size: 20px;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    body{background-color: #5059ff;}
+
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-    body{background-color: #ff506a;}
+
 }
