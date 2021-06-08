@@ -1,6 +1,6 @@
 function getButtonValue(userInput) {
     // if(!parseInt())
-    document.getElementById("userInput").va
+    document.getElementById("userInput")
 
     let input0 = document.getElementById("buttonHidden1").value;
     let input1 = document.getElementById("buttonHidden1").value + userInput;
